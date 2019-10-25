@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android" 
+   android:orientation = "vertical" 
+   android:background = "@android:color/darker_gray" 
+   android:layout_width = "fill_parent" 
+   android:layout_height = "fill_parent"> 
+   <TextView 
+      android:text = "What is your favourite Car" 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/textView1" 
+      android:textColor = "@android:color/black" /> 
+   <RadioGroup 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/radioGroup1" 
+      android:backgroundTint = "#a52a2aff" 
+      android:background = "@android:color/holo_green_dark"> 
+   <RadioButton 
+      android:layout_width = "wrap_content" 
+      android:layout_height = "wrap_content" 
+      android:text = "Ferrari" 
+      android:id = "@+id/radioFerrari" /> 
+   <RadioButton 
+      android:layout_width = "wrap_content" 
+      android:layout_height = "wrap_content" 
+      android:text = "Mercedes" 
+      android:id = "@+id/radioMercedes" /> 
+   <RadioButton 
+      android:layout_width = "wrap_content" 
+      android:layout_height = "wrap_content" 
+      android:text = "Lamborghini" 
+      android:id = "@+id/radioLamborghini" />
+   <RadioButton 
+      android:text = "Audi" 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/radioAudi" /> 
+   </RadioGroup> 
+</LinearLayout>         
